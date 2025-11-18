@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Lab - Intelligent Workflows</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div class="nav-links">
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">Docs</a>
+            <a href="#">Blog</a>
+        </div>
+        <div class="auth-links">
+            <a href="#" class="login">Login</a>
+            <a href="#" class="btn-primary sm">Sign Up</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>AI for teams<br>shaping the future.</h1>
+            <p>Build, connect, and scale intelligent<br>workflows – all from one place.</p>
+            <a href="#" class="btn-primary">Get Started ></a>
+        </div>
+        <div class="hero-visual" id="canvas-container">
+            <!-- WebGL Canvas will be injected here -->
+        </div>
+    </header>
+
+    <section class="interface-preview">
+        <div class="interface-container">
+            <div class="window-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <div class="address-bar">Statsbot</div>
+            </div>
+            <div class="window-content">
+                <div class="sidebar">
+                    <div class="menu-item active">Statsbot</div>
+                    <div class="menu-item">Inbox</div>
+                    <div class="menu-item">Analytics</div>
+                </div>
+                <div class="main-area">
+                    <div class="workflow-node">
+                        <div class="node-header">Generate Response</div>
+                        <div class="node-body">
+                            <div class="field">
+                                <label>Model</label>
+                                <div class="input">GPT-4-turbo</div>
+                            </div>
+                            <div class="field">
+                                <label>Temperature</label>
+                                <div class="input">0.7</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="logos">
+        <div class="logo-grid">
+            <div class="partner">STATSIG</div>
+            <div class="partner">Deno</div>
+            <div class="partner">Modal</div>
+            <div class="partner">hyper</div>
+            <div class="partner">evidence</div>
+            <div class="partner">dagster</div>
+            <div class="partner">case status</div>
+            <div class="partner">DIG SOUTH</div>
+        </div>
+    </section>
+
+    <section class="features-dark">
+        <div class="section-header">
+            <h2>Data that thinks with you</h2>
+            <p>Manage what Arden remembers and what it forgets.<br>Keep your automations sharp, secure, and in sync.</p>
+            <a href="#" class="btn-white">Get Started ></a>
+        </div>
+        
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="card-visual wireframe-1">
+                    <!-- CSS wireframe representation -->
+                    <div class="wireframe-box">Bug reported in Slack</div>
+                    <div class="wireframe-arrow">↓</div>
+                    <div class="wireframe-box">Linear ticket created</div>
+                </div>
+                <h3>Your invisible assistant</h3>
+                <p>Arden understands, and handles the next step automatically.</p>
+            </div>
+            <div class="feature-card">
+                <div class="card-visual wireframe-2">
+                     <!-- CSS wireframe representation -->
+                     <div class="perspective-plane">
+                        <div class="badge">Arden Workspace</div>
+                     </div>
+                </div>
+                <h3>Access what matters most</h3>
+                <p>Manage what your AI remembers -- and what it forgets.</p>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
