@@ -1,32 +1,21 @@
-# AI Lab Landing Page
+# AI Lab
 
-This is a landing page concept for an AI Lab, featuring a WebGL-based dither effect hero section.
+**AI experimentation and model testing environment**
+
+## Tech Stack
+
+python
+
+## Key Points
+
+- Personal AI research lab for testing models and techniques
 
 ## Files
 
-- `index.html`: Main structure.
-- `style.css`: Styling and layout.
-- `main.js`: Three.js scene and custom dither shader.
+- `README.md` (0KB)
 
-## How to Run
+## Part of Printmaxx (Meta Business System)
 
-Because this project uses ES Modules (for Three.js), you need to serve it via a local web server. Opening the `index.html` file directly in your browser might result in CORS errors.
+This is a subsystem of [Printmaxx](https://github.com/fnsmdehip/printmaxx-starter-kit), a 27GB autonomous revenue operating system with 33 agents, 394 scripts, and 5,277 scored revenue methods.
 
-### Using Python (Pre-installed on macOS/Linux)
-
-1. Open your terminal in this directory.
-2. Run the following command:
-   ```bash
-   python3 -m http.server 8000
-   ```
-3. Open your browser and go to `http://localhost:8000`.
-
-### Using Node.js
-
-If you have Node.js installed:
-1. Install `serve`:
-   ```bash
-   npx serve .
-   ```
-2. Open the URL shown in the terminal.
-
+[Full Portfolio](https://devprint-portfolio.surge.sh) | [System Architecture](https://builders-portfolio.surge.sh)
